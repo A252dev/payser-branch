@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #000f9c;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+
+/* normal styles */
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 9px 24px;
+  margin-right: 30px;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.link:hover {
+  transform: translateY(2px);
+}
+
+.white_link {
+  border: 2px solid #fff;
+}
+
+.blue_link {
+  background-color: #0050dc;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.ok-icon {
+  display: block;
+  margin-right: 5px;
+}
+
+.sublink {
+  margin-top: 30px;
+}
