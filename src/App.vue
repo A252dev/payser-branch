@@ -21,8 +21,8 @@ import master_card from '@/assets/img/security/ms.vue'
       </section>
       <section class="header__side">
         <nav class="links__container">
-          <a class="link white_link" href="#">Create wallet</a>
-          <a class="link blue_link" href="#">Login</a>
+          <RouterLink class="link white_link" to="/register">Create wallet</RouterLink>
+          <RouterLink class="link blue_link" to="/login">Login</RouterLink>
         </nav>
       </section>
     </div>

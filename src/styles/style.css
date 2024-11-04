@@ -47,3 +47,15 @@ html {}
 .sublink {
   margin-top: 30px;
 }
+
+
+.click__link {
+  color: #0050dc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.click__link:hover {
+  text-decoration: underline;
+  transform: scale(1.02);
+}

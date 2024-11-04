@@ -115,7 +115,7 @@ import '@/styles/docs.css'
             <div class="rule__wrapper">
                 <h5 class="rule__title">Защита от DDoS-атак</h5>
 
-                <p class="rule__description">Сайт надёжно защищён от DDoS-атак через <a class="doc__link"
+                <p class="rule__description">Сайт надёжно защищён от DDoS-атак через <a class="click__link"
                         href="https://www.cloudflare.com" target="_blank">Cloudflare</a>.</p>
             </div>
 

@@ -3,6 +3,8 @@ import Index from '@/views/Index.vue'
 import UserAgreement from '@/views/UserAgreement.vue'
 import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
 import DataProtection from '@/views/DataProtection.vue'
+import Register from '@/views/user/Register.vue'
+import Login from '@/views/user/Login.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +28,16 @@ const router = createRouter({
       path: '/data_protection',
       name: 'DataProtection',
       component: DataProtection
+    },
+    {
+      path: '/register',
+      name: 'Register',
+      component: Register
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
     }
     // {
     //   path: '/about',

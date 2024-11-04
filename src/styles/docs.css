@@ -62,13 +62,3 @@
 .pre {
     text-indent: 20px;
 }
-
-.doc__link {
-    color: #0050dc;
-    text-decoration: none;
-}
-
-.doc__link:hover {
-    text-decoration: underline;
-    transform: scale(1.02);
-}
