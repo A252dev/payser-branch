@@ -5,17 +5,19 @@ import Triangle from '@/assets/img/icons/triangle.vue'
 import app_store from './assets/img/icons/app_store.vue'
 import google_play from './assets/img/icons/google_play.vue'
 
-import pci from './assets/img/security/pci.vue'
-import visa from './assets/img/security/visa.vue'
-import mir from './assets/img/security/mir.vue'
-import ms from './assets/img/security/ms.vue'
+import pci from '@/assets/img/security/pci.vue'
+import visa from '@/assets/img/security/visa.vue'
+import mir from '@/assets/img/security/mir.vue'
+import master_card from '@/assets/img/security/ms.vue'
 </script>
 
 <template>
   <header>
     <div class="header__container">
       <section class="header__side">
-        <Logo class="main__logo" />
+        <RouterLink to="/">
+          <Logo class="main__logo" />
+        </RouterLink>
       </section>
       <section class="header__side">
         <nav class="links__container">
@@ -42,9 +44,9 @@ import ms from './assets/img/security/ms.vue'
         </div>
         <div class="footer__block">
           <h3 class="footer__title">For Clients</h3>
-          <a class="footer__link" href="#">User Agreement</a>
-          <a class="footer__link" href="#">Privacy Policy</a>
-          <a class="footer__link" href="#">Data Protection</a>
+          <RouterLink class="footer__link" to="/user_agreement">User Agreement</RouterLink>
+          <RouterLink class="footer__link" to='/privacy_policy'>Privacy Policy</RouterLink>
+          <RouterLink class="footer__link" to="/data_protection">Data Protection</RouterLink>
         </div>
         <div class="footer__block">
           <h3 class="footer__title">Developers</h3>
@@ -65,7 +67,7 @@ import ms from './assets/img/security/ms.vue'
           <pci />
           <visa />
           <mir />
-          <ms />
+          <master_card />
         </div>
         <p class="copyright">&copy; 2020 Payser.pro, Inc.</p>
       </div>
@@ -77,6 +79,7 @@ import ms from './assets/img/security/ms.vue'
 header {
   width: 100%;
   padding: 30px;
+  background-color: #000f9c;
 }
 
 .header__container {

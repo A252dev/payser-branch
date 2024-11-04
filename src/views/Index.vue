@@ -5,7 +5,7 @@ import TheWelcome from '@/components/UI/Index/TheWelcome.vue'
 </script>
 
 <template>
-    <div class="block__container">
+    <div class="block__container bg-image">
         <TheWelcome />
     </div>
     <div class="block__container bg-white">
@@ -20,5 +20,9 @@ import TheWelcome from '@/components/UI/Index/TheWelcome.vue'
 .block__container {
     display: flex;
     flex-direction: column;
+}
+
+.bg-image{
+    background-color: #000f9c;
 }
 </style>

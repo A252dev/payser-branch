@@ -1,5 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Index from '@/views/Index.vue'
+import UserAgreement from '@/views/UserAgreement.vue'
+import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
+import DataProtection from '@/views/DataProtection.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -9,6 +12,21 @@ const router = createRouter({
       name: 'Index',
       component: Index
     },
+    {
+      path: '/user_agreement',
+      name: 'UserAgreement',
+      component: UserAgreement
+    },
+    {
+      path: '/privacy_policy',
+      name: 'PrivacyPolicy',
+      component: PrivacyPolicy
+    },
+    {
+      path: '/data_protection',
+      name: 'DataProtection',
+      component: DataProtection
+    }
     // {
     //   path: '/about',
     //   name: 'about',
