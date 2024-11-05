@@ -86,8 +86,54 @@
         <div class="right__block">
 
             <div class="block__wrapper">
-                dad
+                <div class="section__list">
+                    <a class="section__button button__active" href="#">My Data</a>
+                    <a class="section__button" href="#">Settings</a>
+                    <a class="section__button" href="#">Limits</a>
+                    <a class="section__button" href="#">Bills</a>
+                    <a class="section__button" href="#">Fundraising</a>
+                    <a class="section__button" href="#">Services</a>
+                    <a class="section__button" href="#">History</a>
+                </div> <!-- section list -->
+
+                <div class="section__content__container">
+
+                    <h4 class="section__title" style="text-align: center;">Private Information</h4>
+
+                    <div class="card__container">
+
+                        <div class="card__div">
+                            <h4 class="profile__card__title">My Data</h4>
+
+                            <h5 class="label-id">Name</h5>
+                            <p class="label-value">Alex Robbinson</p>
+                            <h5 class="label-id">Birthday</h5>
+                            <p class="label-value">12.12.1212</p>
+                            <h5 class="label-id">Passport</h5>
+                            <p class="label-value">CB1212122</p>
+
+                            <button class="link blue_link btn">Refresh</button>
+                        </div>
+
+                        <div class="card__div">
+                            <h4 class="profile__card__title">My Data</h4>
+
+                            <h5 class="label-id">Name</h5>
+                            <p class="label-value">Alex Robbinson</p>
+                            <h5 class="label-id">Birthday</h5>
+                            <p class="label-value">12.12.1212</p>
+                            <h5 class="label-id">Passport</h5>
+                            <p class="label-value">CB1212122</p>
+
+                            <button class="link blue_link btn">Delete</button>
+                        </div>
+
+                    </div>
+
+                </div> <!-- section content (my data) -->
+
             </div>
+
         </div> <!-- right block -->
 
     </div>
@@ -262,7 +308,7 @@
 
 
 .add__button__container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border: none;
     margin: 0 auto;
 }
@@ -280,5 +326,82 @@
 
 .btn:hover {
     transform: translateY(2px);
+}
+
+.section__list {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section__button {
+    cursor: pointer;
+    color: #4b4b4b;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid #868686;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button__active {
+    color: #000F9C;
+    border-bottom: 2px solid #000F9C;
+    font-weight: 700;
+}
+
+.section__content__container {
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+}
+
+.card__div {
+    box-shadow: 0 0 4px rgb(184, 217, 243);
+    padding: 20px;
+    width: 35%;
+    background-color: #f5feff;
+    border: 1px solid #c8faff;
+    margin: 10px;
+}
+
+.section__title {
+    font-size: 22px;
+    color: #000;
+    font-weight: 700;
+    margin: 15px 0;
+    margin-bottom: 5px;
+    /* padding: 0; */
+}
+
+.card__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile__card__title {
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid #929292;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.label-id {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.label-value {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
 }
 </style>
