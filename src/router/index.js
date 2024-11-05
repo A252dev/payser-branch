@@ -5,6 +5,9 @@ import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
 import DataProtection from '@/views/DataProtection.vue'
 import Register from '@/views/user/Register.vue'
 import Login from '@/views/user/Login.vue'
+import CardBind from '@/views/more/CardBind.vue'
+import Fundraising from '@/views/more/Fundraising.vue'
+import Profile from '@/views/user/Profile.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,6 +33,16 @@ const router = createRouter({
       component: DataProtection
     },
     {
+      path: '/card_bind',
+      name: 'CardBind',
+      component: CardBind
+    },
+    {
+      path: '/fundraising',
+      name: 'Fundraising',
+      component: Fundraising
+    },
+    {
       path: '/register',
       name: 'Register',
       component: Register
@@ -38,6 +51,11 @@ const router = createRouter({
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/profile',
+      name: 'Profile',
+      component: Profile
     }
     // {
     //   path: '/about',

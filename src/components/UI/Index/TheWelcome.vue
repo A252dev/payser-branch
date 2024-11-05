@@ -47,7 +47,7 @@ import Info from './blocks/Info.vue'
 .subtitle {
     color: #fff;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
 }
 </style>

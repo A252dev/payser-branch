@@ -10,7 +10,7 @@
                     account
                     hacking.
                 </p>
-                <a class="link blue_link sublink" href="#">More</a>
+                <RouterLink class="link blue_link sublink" to="/card_bind">More</RouterLink>
             </div>
             <div class="block__container">
                 <h3 class="block__title">Creation of levies</h3>
@@ -19,7 +19,7 @@
                     You can create collections for various. In this way, you can collect certain funds for different
                     needs.
                 </p>
-                <a class="link blue_link sublink" href="#">More</a>
+                <RouterLink class="link blue_link sublink" to="/fundraising">More</RouterLink>
             </div>
         </section>
 

@@ -13,7 +13,7 @@
                         that
                         our clients get the most favorable conditions when using this payment system.
                         Register now and get the most convenient wallet you have ever used.</p>
-                    <a class="link blue_link sublink" href="#">Register</a>
+                    <RouterLink class="link blue_link sublink" to="/register">Register</RouterLink>
                 </div>
             </div>
         </div>
