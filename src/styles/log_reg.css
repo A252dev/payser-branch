@@ -59,3 +59,11 @@ button {
     border: none;
     font-size: 18px;
 }
+
+@media(max-width: 1000px) {
+
+    .form__section {
+        max-width: 90%;
+    }
+
+}

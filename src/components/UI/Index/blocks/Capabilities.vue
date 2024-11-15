@@ -62,7 +62,7 @@ import ok2 from '@/assets/img/icons/ok-2.vue'
     /* z-index: 3; */
 }
 
-.card{
+.card {
     width: 268px;
 }
 
@@ -88,5 +88,13 @@ import ok2 from '@/assets/img/icons/ok-2.vue'
     color: #000F9C;
     font-weight: 900;
     /* font-size: 14px; */
+}
+
+@media(max-width: 1000px) {
+
+    .info__container {
+        flex-direction: column;
+    }
+
 }
 </style>

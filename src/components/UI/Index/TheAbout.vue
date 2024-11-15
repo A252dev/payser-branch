@@ -66,4 +66,16 @@
     text-align: justify;
     line-height: 24px;
 }
+
+@media(max-width: 1000px){
+
+    .ls-image{
+        display: none;
+    }
+
+    .about__section__container{
+        max-width: 100%;
+    }
+
+}
 </style>

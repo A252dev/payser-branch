@@ -77,7 +77,7 @@
     width: 38%;
     display: flex;
     justify-content: space-between;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 .section__card {
@@ -165,5 +165,37 @@
     line-height: 22px;
     margin-bottom: 20px;
     font-size: 14px;
+}
+
+@media(max-width: 1000px) {
+
+    .content__container {
+        max-width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content__title {
+        font-size: 35px;
+    }
+
+    .info__card {
+        width: 100%;
+    }
+
+    .section__card {
+        margin-bottom: 25px;
+    }
+
+    .content__right,
+    .content__left {
+        width: 75%;
+    }
+
+    .card__icon__block {
+        left: 40%;
+        transform: translateY(-130%);
+    }
+
 }
 </style>

@@ -50,4 +50,16 @@ import Info from './blocks/Info.vue'
     font-weight: 600;
     text-align: center;
 }
+
+@media(max-width: 1000px) {
+
+    .title {
+        font-size: 42px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+}
 </style>

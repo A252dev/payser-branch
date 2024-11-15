@@ -60,4 +60,16 @@
     flex-direction: row;
     justify-content: center;
 }
+
+@media(max-width: 1000px) {
+
+    .advanced__container {
+        flex-direction: column;
+    }
+
+    .block__container {
+        max-width: 100%;
+    }
+
+}
 </style>
